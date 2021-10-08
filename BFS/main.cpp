@@ -3,9 +3,12 @@
 #include <queue>
 using namespace std;
 
-int c[7];
+// 노드당 들렸는지 체크;
+bool c[7];
+// 인접 벡터 구현
 vector<int> a[8];
 
+// 너비 우선 탐색 알고리즘
 void bfs(int start){
     queue<int> q;
     q.push(start);
@@ -26,6 +29,7 @@ void bfs(int start){
 }
 
 int main() {
+    // 인접 한 노드 및 에지 설정
     a[1].push_back(2);
     a[2].push_back(1);
     a[1].push_back(3);
