@@ -27,7 +27,7 @@
 #
 # for num in num_list:
 #     print(num)
-
+count = 1
 def merge_sort(arr: list):
     if len(arr) <= 1:
         return arr
@@ -48,12 +48,14 @@ def merge_sort(arr: list):
 
     arr += left[i:]
     arr += right[j:]
+    print(f"{arr}")
 
     return arr
 
-num_list = []
-for i in range(int(input())):
-    num_list.append(int(input()))
+num_list = [38,12,95,21,65,43,83,9,84,45,33,13,29,79,68,42]
+
+# for i in range(int(input())):
+#     num_list.append(int(input()))
 
 num_list = merge_sort(num_list)
 

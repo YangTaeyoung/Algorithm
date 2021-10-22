@@ -18,7 +18,7 @@ void quickSort(int* data, int start, int end){
         return;
     }
 
-    int key = start;
+    int key = start; // 피벗
     int i = start+1;
     int j = end;
     int temp;
@@ -32,6 +32,7 @@ void quickSort(int* data, int start, int end){
         {
             j--;
         }
+
         if(i > j){ // 데이터가 엇갈린 상태면 키 값과 교채
             temp = data[j];
             data[j] = data[key];
