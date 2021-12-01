@@ -1,3 +1,0 @@
-C:/dev/Algorithm/BinaryTreeTraversal/cmake-build-debug/CMakeFiles/BinaryTreeTraversal.dir
-C:/dev/Algorithm/BinaryTreeTraversal/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/dev/Algorithm/BinaryTreeTraversal/cmake-build-debug/CMakeFiles/rebuild_cache.dir
